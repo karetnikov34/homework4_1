@@ -13,7 +13,7 @@ class MainKtTest {
 
         val result = commission(card, amount, month, day)
 
-        assertEquals(-1, result)
+        assertEquals(-2, result)
     }
 
     @Test
